@@ -1,4 +1,5 @@
 mod task_01;
+mod task_02;
 
 mod utils {
     pub mod util;
@@ -7,10 +8,8 @@ mod utils {
 
 
 fn main() {
-    println!("Hello, world!");
-
     let test = false;
     println!("Mode: {:}",  if test {"test"} else {"data"});
-    //task_01::task_01::first(test);
-    task_01::task_01::second(test);
+    task_02::task_02::first(test);
+    task_02::task_02::second(test);
 }
